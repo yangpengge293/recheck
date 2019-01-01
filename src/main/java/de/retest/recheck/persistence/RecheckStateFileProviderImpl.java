@@ -1,6 +1,6 @@
 package de.retest.recheck.persistence;
 
-import static de.retest.util.FileUtil.canonicalPathQuietly;
+import static de.retest.file.FileUtil.canonicalPathQuietly;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 import de.retest.Properties;
 import de.retest.persistence.Persistence;
 import de.retest.ui.descriptors.SutState;
-import de.retest.util.FileUtil;
+import de.retest.file.FileUtil;
 
 public class RecheckStateFileProviderImpl implements RecheckStateFileProvider {
 
